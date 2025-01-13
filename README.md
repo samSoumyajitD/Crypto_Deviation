@@ -57,10 +57,11 @@ The server will run on `http://localhost:5000` by default.
 ├── controllers/
 │   ├── cryptoController.js       # Handles real-time cryptocurrency data
 │   ├── cryptoHisController.js    # Handles historical cryptocurrency data
-│   └── deviation.js              # Calculates standard deviation
 ├── models/
 │   ├── Crypto.js                 # MongoDB schema for real-time data
 │   ├── CryptoHisPrice.js         # MongoDB schema for historical data
+├── jobs/
+│   └── deviation.js              # Job to calculates standard deviation of last 100 cryptocurrency price records.
 ├── routes/
 │   └── cryptoRoutes.js           # API routes for cryptocurrencies
 ├── services/
@@ -115,8 +116,3 @@ The server will run on `http://localhost:5000` by default.
 - Add more analytics capabilities (e.g., moving averages, volatility).
 - Integrate WebSocket for real-time price updates.
 - Add user authentication for personalized watchlists.
-
-## License
-
-This project is licensed under the MIT License.
-```
