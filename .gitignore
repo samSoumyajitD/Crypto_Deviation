@@ -1,0 +1,40 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+logs/**/*.log
+
+# dotenv
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# Coverage directories
+coverage/
+.nyc_output/
+
+# Build output
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.pid
+
+# Test and debugging
+*.tsbuildinfo
