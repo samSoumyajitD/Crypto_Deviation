@@ -37,7 +37,7 @@ This project is a cryptocurrency data aggregation service that fetches and store
 3. Create a `.env` file in the root directory and configure the following environment variables:
    ```env
    PORT=5000
-   MONGODB_URI=<your-mongodb-uri>
+   MONGO=<your-mongodb-uri>
    API_KEY=<your-coingecko-api-key>
    ```
 
