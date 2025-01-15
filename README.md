@@ -44,6 +44,10 @@ This project is a cryptocurrency data aggregation service that fetches and store
 4. Start the server:
    ```bash
    npm start
+   or
+   node server.js
+   or
+   nodemon server.js
    ```
 
 The server will run on `http://localhost:5000` by default.
