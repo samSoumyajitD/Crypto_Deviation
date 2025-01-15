@@ -25,7 +25,7 @@ This project is a cryptocurrency data aggregation service that fetches and store
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/samSoumyajitD/Crypto_Deviation.git
    cd <repository-name>
    ```
 
